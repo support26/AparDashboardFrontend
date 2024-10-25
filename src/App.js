@@ -145,7 +145,7 @@ function App() {
                             </select>
                         </div>
                         {selectedDashboard && (
-                            <div className="dashboard-frame">
+                            <div className="dashboard-frame">   
                                 <iframe
                                     title="Metabase Dashboard"
                                     src={dashboards.find(d => d.id === parseInt(selectedDashboard)).url}
